@@ -37,12 +37,30 @@ You can directly use the pre-trained model (`model.p`) provided in this reposito
    cd sign-language-to-speech
    ```
 
-2. Install the required dependencies:
+2. Create a .env
+# Create a virtual environment
+   ```bash
+   python3 -m venv env
+```
+# Activate the environment
+# On Windows
+```bash
+.\env\Scripts\activate
+```
+# On macOS/Linux
+```bash
+source env/bin/activate
+```
+# Deactivate the environment
+```bash
+deactivate
+   ```
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the `main.py` script.  
-4. Ensure your webcam is functional, and the `model.p` file is in the same directory.  
+4. Run the `main.py` script.  
+5. Ensure your webcam is functional, and the `model.p` file is in the same directory.  
 
 ### **Option 2: Train Your Own Model**  
 To create and train a custom model:  
@@ -99,10 +117,7 @@ We believe that collaboration is key to innovation. If you have suggestions for 
 
 ---
 
-## **Contributors**  
-1. **[Tanmay Jivnani](https://github.com/tanmayJivnani)**
-2. **[Shravani Verma](https://github.com/Shravknowscoding)**
-3. **[Aishwarya Shendkar](https://github.com/aishwaryaa2603)**
+
 
 ---
 
